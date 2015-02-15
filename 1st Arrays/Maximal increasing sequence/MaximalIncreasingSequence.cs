@@ -20,7 +20,6 @@ class MaximalIncreasingSequence
         int count = 1;
         int maxCount = 1;
         int startIndex = 0;
-        int currentIndex = 0;
         int endIndex = 0;
         bool isGreater = false;
 

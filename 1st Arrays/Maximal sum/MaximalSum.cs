@@ -27,17 +27,13 @@ class MaximalSum
         int sequenceEnd = 0;
         int startPosition = 0;
         int maxSum = 0;
-        int countNegative = 0;
-         
+
+
         for (int i = 0; i < sequence.Length; i++)
         {
-            //check if the numbers in array are negative
-            //if (sequence[i] < 0)
-            //{
-            //    countNegative++;
-            //}
+            //adds the following number in the array to the sum
             sum += sequence[i];
-            //disregards the calculation & moves to the next value
+            //disregards the calculation & moves to the next value (if the sum is negative)
             if (sum < 0)
             {
                 sum = 0;
@@ -51,18 +47,11 @@ class MaximalSum
                 sequenceEnd = i;
             }
         }
-        //if (countNegative == sequence.Length)
-        //{
-        //    Console.WriteLine(sequence.Max());
-        //}
-        //else
-        //{
-            for (int i = sequenceStart; i <= sequenceEnd; i++)
-            {
-                Console.Write("{0}, ", sequence[i]);
-            }
-            Console.WriteLine();
-        //}
+        for (int i = sequenceStart; i <= sequenceEnd; i++)
+        {
+            Console.Write(String.Join(", ", sequence[i]));
+        }
+        Console.WriteLine();
     }
 }
 
