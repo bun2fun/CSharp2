@@ -35,8 +35,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. PrimeNumbers", "PrimeNu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. SubsetWithSumS", "Subset with sum S\16. SubsetWithSumS.csproj", "{EEB9605F-63BA-4BC3-93E9-34C45EF17C4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{123F5FE7-ABF9-4607-8DFD-106B186058F6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,10 +105,6 @@ Global
 		{EEB9605F-63BA-4BC3-93E9-34C45EF17C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEB9605F-63BA-4BC3-93E9-34C45EF17C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEB9605F-63BA-4BC3-93E9-34C45EF17C4B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{123F5FE7-ABF9-4607-8DFD-106B186058F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{123F5FE7-ABF9-4607-8DFD-106B186058F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{123F5FE7-ABF9-4607-8DFD-106B186058F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{123F5FE7-ABF9-4607-8DFD-106B186058F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

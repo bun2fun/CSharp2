@@ -59,13 +59,15 @@ class MergeSort
                 j++;
             }
         }
-        for (; i < left.Length; i++)
+        while (i < left.Length)
         {
             result[i + j] = left[i];
+            i++;
         }
-        for (; j < right.Length; j++)
+        while (j < right.Length)
         {
             result[i + j] = right[j];
+            j++;
         }
         return result;
     }
